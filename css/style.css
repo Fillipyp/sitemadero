@@ -1,0 +1,182 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body, h1, h2, p, ul, li, a{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+  text-decoration: none;
+  /* font-family: 'Lato',sans-serif; */
+}
+nav ul a,
+nav .listasmenu {
+ min-width: 110px;
+  color: white;
+  font-family: 'Lato',sans-serif;
+}
+
+
+.brand-logo{
+  font-family: 'inherit';
+}
+
+.listasmenu a:hover{
+color:  #d5c06b;
+	
+}
+
+.barranavegacao{
+
+  background-color:black;
+}
+
+
+
+.slogan{
+  color: #d5c06b;
+  font-size: 3em;
+  border-bottom: 5px solid #d5c06b;
+  width: 120px;
+  margin-bottom: 40px;
+  font-family: 'sans-serif';
+  
+}
+
+.cardapio2{
+  color: white;
+  font-size: 5em;
+  font-family: 'inherit';
+  
+}
+
+
+#pecaja{
+  background-color: #d5c06b;
+}
+
+#pecaja:hover{
+  color: black;
+  background-color: white;
+}
+
+#botaoconfira{
+  background-color: #d5c06b; color: black;
+}
+
+#botaoconfira:hover{
+  background-color:white; color: black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #d5c06b;
+}
+
+.parallax-container {
+  min-height: 800px;
+  color: white;
+  line-height: 0;
+  height: auto;
+  background-color: rgb(10, 10, 15, 0.4);
+}
+
+@media only screen and (max-width:770px) {
+  .parallax-container{
+    min-height: 820px;
+
+  }
+ 
+}
+
+.hamburguer{
+  min-height: 850px;
+  line-height: 0;
+  height: auto;
+  background-color: rgb(10, 10, 15, 0.8);
+}
+
+.comida{
+  min-height: 885px;
+  line-height: 0;
+  height: auto;
+  background-color: rgb(10, 10, 15, 0.4);
+}
+
+.sombra{
+  height: 32px;
+  background-color: black;
+} 
+
+.sombra2{
+  height: 80px;
+  background-color: black;
+  border-bottom: 3px solid #d5c06b;
+} 
+
+.cardapio{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.junior{
+  font-size: 5em;
+  margin-bottom: 50px;
+}
+
+.durski{
+  font-size: 5em;
+  font-family: Arial;
+}
+.historia{
+  margin-top: 60px;
+}
+
+.chefjunior{
+  margin-bottom: 100px;
+}
+
+.chamado{
+  color: white;
+  font-size: 20px;
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 770px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background: linear-gradient(to right, #1a1a1a 24%, #333333 107%);
+}
+
+
